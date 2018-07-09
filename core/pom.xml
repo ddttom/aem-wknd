@@ -99,5 +99,4 @@
             <artifactId>junit-addons</artifactId>
         </dependency>
     </dependencies>
-   
 </project>

@@ -44,11 +44,9 @@ import java.io.IOException;
            })
 public class SimpleServlet extends SlingSafeMethodsServlet {
 
-    /**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-	@Override
+    private static final long serialVersionUid = 1L;
+
+    @Override
     protected void doGet(final SlingHttpServletRequest req,
             final SlingHttpServletResponse resp) throws ServletException, IOException {
         final Resource resource = req.getResource();
